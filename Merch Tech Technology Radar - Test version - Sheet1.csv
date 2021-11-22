@@ -1,0 +1,61 @@
+name,ring,quadrant,isNew,description
+Python,Adopt,languages-and-frameworks,FALSE,"<p>Python continues to be language of choice within media, data mining & machine learning type use cases due to immense supporting libraries, ease of experimentation, code readability. API development has seen improvements with wider adoption of frameworks like Fast API & Wayfair community support has been really strong with the vision of Python Platform Team</p>"
+Java,Adopt,languages-and-frameworks,FALSE,"<p>Java is statically typed & compiled providing it a significant boost at runtime & easier to debug, Java has been recognized for API development due to speed and efficiency.</p>"
+Typescript,Adopt,languages-and-frameworks,FALSE,
+PHP,Hold,languages-and-frameworks,FALSE,
+.Net / .Net Core,Hold,languages-and-frameworks,FALSE,<p>.Net is an excellent choice of language when it comes to API development like Java and is statically typed & compiled as well. With .Net core Microsoft has broken away from the vendor lock in and has seen broader adoption by open source communities off late. However we still would like to hold adoption of .Net core so that we can have only two languages supported with Merch Tech around Python & Java for now. Hiring continues to be a challenge when it comes to .Net and we would recommend keeping languages within ecosystem to minimum</p>
+GoLang,Hold,languages-and-frameworks,,
+C/C++,Adopt,languages-and-frameworks,,
+SpringBoot,Adopt,languages-and-frameworks,FALSE,
+FastAPI,Adopt,languages-and-frameworks,TRUE,"<p>We're seeing more teams adopting Python as the preferred language to build solutions, not just for data science but for back-end services too. In these scenarios, adopt FastAPI — a modern, fast (high-performance), web framework for building APIs with Python 3.6 or later. Additionally, this framework and its ecosystem include features such as API documentation using OpenAPI that allow our teams to focus on the business functionalities and quickly create REST APIs, which makes FastAPI a good alternative to existing solutions in this space.</p>"
+Avro,Adopt,languages-and-frameworks,FALSE,
+GraphQL,Adopt,languages-and-frameworks,FALSE,
+REST,Adopt,languages-and-frameworks,FALSE,
+gPRC,Assess,languages-and-frameworks,TRUE,
+GCP,Adopt,Platforms,FALSE,
+Kubernetes,Adopt,Platforms,FALSE,
+Tekton,Adopt,Platforms,TRUE,"<p>Tekton is a young Kubernetes-native platform for managing continuous integration and delivery (CI/CD) pipelines. It not only installs and runs on Kubernetes but also defines its CI/CD pipelines as Kubernetes custom resources. This means the pipelines can now be controlled by native Kubernetes clients (CLI or APIs) and can take advantage of underlying resource management features such as rollbacks. The pipeline declaration format is flexible and allows defining workflows with conditions, parallel execution paths and handling final tasks to clean up among other features.</p>"
+Service Mesh (Istio),Adopt,Platforms,TRUE,"<p>If you're building and operating a scaled microservices architecture and have embraced Kubernetes, adopting service mesh to manage all cross-cutting aspects of running the architecture is a default position. Among various implementations of service mesh, Istio has gained majority adoption. It has a rich feature set, including service discovery, traffic management, service-to-service and origin-to-service security, observability (including telemetry and distributed tracing), rolling releases and resiliency. Its user experience has been improved in its latest releases, because of its ease of installation and control panel architecture. Istio has lowered the bar for implementing large-scale microservices with operational quality for many of our clients, while admitting that operating your own Istio and Kubernetes instances requires adequate knowledge and internal resources which is not for the fainthearted.</p>"
+Google Analytics,Adopt,Platforms,TRUE,
+Brooklin,Adopt,Platforms,TRUE,
+Kafka,Adopt,Platforms,FALSE,
+Backstage,Trial,Platforms,TRUE,"<p>We continue to see interest in and use of Backstage grow, alongside the adoption of developer portals, as organizations look to support and streamline their development environments. As the number of tools and technologies increases, some form of standardization is becoming increasingly important for consistency so that developers are able to focus on innovation and product development instead of getting bogged down with reinventing the wheel. Backstage is an open-source developer portal platform created by Spotify, it's based upon software templates, unifying infrastructure tooling and consistent and centralized technical documentation. The plugin architecture allows for extensibility and adaptability into an organization’s infrastructure ecosystem.</p>"
+SQL Server,Hold,Platforms,FALSE,
+Postgresql,Trial,Platforms,TRUE,
+Spanner,Assess,Platforms,TRUE,
+GraphDB,Assess,Platforms,TRUE,
+Aerospike,Adopt,Platforms,FALSE,
+BigQuery,Adopt,Platforms,FALSE,
+BigTable,Assess,Platforms,FALSE,
+ElasticSearch,Assess,Platforms,TRUE,
+SOLR,Hold,Platforms,FALSE,
+Jenkins,Hold,Platforms,FALSE,
+TICK Stack,Adopt,Platforms,FALSE,"<p>TICK Stack is a collection of open source components that combine to deliver a platform for easily storing, visualizing and monitoring time series data such as metrics and events. The components are: Telegraf, a server agent for collecting and reporting metrics; InfluxDB, a high-performance time series database; Chronograf, a user interface for the platform; and Kapacitor, a data-processing engine that can process, stream and batch data from InfluxDB</p>"
+Okta,Assess,Platforms,FALSE,
+Homebase,Adopt,Techniques,FALSE,
+Single Purpose Database,Adopt,Techniques,FALSE,
+Contract Testing,Adopt,Techniques,FALSE,
+Event Driven,Adopt,Techniques,FALSE,
+Hexagonal Architecture,Adopt,Techniques,FALSE,
+Ephemeral Environments ,Assess,Techniques,TRUE,
+Canary Releases,Assess,Techniques,TRUE,"<p>Service meshes and API gateways provide a convenient way to route traffic to a variety of microservices, all of which implement the same API interface. Flagger uses this feature to dynamically adjust the portion of traffic that is routed to a new version of a service. This is a common technique for canary releases or blue/green deployment. Flagger works in conjunction with a variety of popular proxies (including Envoy and Kong) to progressively ramp up requests to a service and report metrics on the load in order to provide fast feedback on a new release. We like that Flagger simplifies this valuable practice so that it can be more widely adopted.</p>"
+Federation,Assess,Techniques,TRUE,
+Continuous Deployment,Adopt,Techniques,FALSE,
+Data Publication,Adopt,Techniques,TRUE,
+Replication,Hold,Techniques,FALSE,
+Decoupled FrontEnds,Adopt,Techniques,TRUE,
+API Gateway,Adopt,Techniques,TRUE,
+Retriever,Hold,Tools,FALSE,
+DataDog,Adopt,Platforms,FALSE,
+ELK Stack,Adopt,Platforms,FALSE,
+Mamba,Adopt,Tools,FALSE,
+PagerDuty,Adopt,Platforms,FALSE,
+Event Client,Adopt,Tools,FALSE,
+Event Collector,Hold,Tools,FALSE,
+VSCode,Adopt,Tools,FALSE,
+PyCharm,Adopt,Tools,FALSE,
+Lens,Adopt,Tools,FALSE,
+Terraform,Adopt,Tools,FALSE,"<p>Terraform, is rapidly becoming a de facto choice for creating and managing cloud infrastructures by writing declarative definitions. The configuration of the servers instantiated by Terraform is usually left to Puppet, Chef or Ansible. We like Terraform because the syntax of its files is quite readable and because it supports a number of cloud providers while making no attempt to provide an artificial abstraction across those providers. The active community will add support for the latest features from most cloud providers. Following our first, more cautious, mention of Terraform almost two years ago, it has seen continued development and has evolved into a stable product with a good ecosystem that has proven its value in our projects.</p>"
+Open Policy Agent,Assess,Platforms,TRUE,
+Casbin,Assess,Platforms,TRUE,
+Vault,Adopt,Platforms,FALSE,
